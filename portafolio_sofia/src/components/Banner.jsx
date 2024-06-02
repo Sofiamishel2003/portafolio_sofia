@@ -1,6 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import '../styles/Banner.css';
+import { FaGithub, FaLinkedin, FaSpotify } from 'react-icons/fa';
 
 function Banner() {
   const [text, setText] = useState('');
@@ -53,7 +55,7 @@ function Banner() {
         animate={{ y: 0 }}
         transition={{ delay: 0.5, type: 'spring', stiffness: 50 }}
       >
-        Hi, Im Sofía.
+        Hi, I&apos;m Sofía.
       </motion.h1>
       <motion.p
         className="banner-subtitle"
@@ -70,6 +72,22 @@ function Banner() {
         transition={{ delay: 1.5, duration: 0.5 }}
       >
         {text}
+      </motion.div>
+      <motion.div
+        className="banner-icons"
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 2, duration: 0.5 }}
+      >
+        <a href="https://github.com/Sofiamishel2003" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/sof%C3%ADa-velasquez/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="icon" />
+        </a>
+        <a href="https://open.spotify.com/user/sofiamishel2003?si=W8DXnDvjSeG9fIoHd3uhJg" target="_blank" rel="noopener noreferrer">
+          <FaSpotify className="icon" />
+        </a>
       </motion.div>
     </motion.div>
   );

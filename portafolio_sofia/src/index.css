@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jomolhari&family=Nixie+One&family=Supermercado+One&family=Ubuntu+Condensed&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif,;
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,6 +27,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  font-family: "Ubuntu Condensed", sans-serif;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -68,18 +71,18 @@ button:focus-visible {
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Jomolhari", serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
 }
 
 .dark-mode {
-  --bg-color: #1e1e1e;
-  --text-color: #f9f1d4;
+  --bg-color: #15171e;
+  --text-color: #FEFAED;
 }
 
 :root {
-  --bg-color: #f9f1d4;
+  --bg-color: #FEFAED;
   --text-color: #000000;
 }

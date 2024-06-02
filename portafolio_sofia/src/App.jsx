@@ -3,8 +3,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
+import Skills from './components/Skills';
 import Loader from './components/Loader';
 
 function App() {
@@ -30,11 +29,8 @@ function App() {
       <div id="portfolio">
         <Portfolio />
       </div>
-      <div id="blog">
-        <Blog />
-      </div>
-      <div id="contact">
-        <Contact />
+      <div id="skills">
+        <Skills />
       </div>
     </div>
   );

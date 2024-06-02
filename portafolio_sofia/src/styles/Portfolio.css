@@ -5,31 +5,76 @@
 .portfolio h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+
 }
 
-.projects {
+.section {
+  margin-bottom: 50px;
+}
+
+.section h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.projects, .algorithms {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
-.project-card {
+.project-card, .algorithm-card {
   background: var(--card-bg-color);
   color: var(--text-color);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
+  width: 300px; /* Ancho de las tarjetas */
+  text-align: center;
 }
 
-.project-card:hover {
+.project-card:hover, .algorithm-card:hover {
   transform: scale(1.05);
 }
 
+.project-card img, .algorithm-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-card h4, .algorithm-card h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project-card p, .algorithm-card p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.project-card a, .algorithm-card a {
+  display: block;
+  margin-bottom: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.project-card a:hover, .algorithm-card a:hover {
+  text-decoration: underline;
+}
+
 :root {
-  --card-bg-color: #ffffff; /* Color de fondo de las tarjetas en modo claro */
+  --card-bg-color: #ffffff;
 }
 
 .dark-mode {
-  --card-bg-color: #4a4747; /* Color de fondo de las tarjetas en modo oscuro */
+  --card-bg-color: #4a4747;
 }

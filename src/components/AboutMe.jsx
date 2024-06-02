@@ -5,22 +5,22 @@ const cards = [
   {
     title: "Scout",
     description: "I was a Scout for 8 years, deeply involved in various activities. I achieved the highest leadership rank in my category and participated in multiple competitions and trainings certified by the UN.",
-    image: "public/Scouts.jpg",
+    image: "/Scouts.jp",
   },
   {
     title: "Taekwondo Federation",
     description: "In 2023, I was federated in Taekwondo and achieved second place in national competitions, showcasing my dedication and skill in the sport.",
-    image: "public/Taekwondo.jpg",
+    image: "/Taekwondo.jpg",
   },
   {
     title: "Daily MMA Training",
     description: "I currently train in Mixed Martial Arts (MMA) daily, maintaining my physical fitness and enhancing my combat skills.",
-    image: "public/MMA.jpg",
+    image: "/MMA.jpg",
   },
   {
     title: "Social Activism",
     description: "I am actively involved in social activism, advocating for women's rights and protesting against injustices that I feel strongly about.",
-    image: "public/SocialActivism.jpg",
+    image: "/SocialActivism.jpg",
   }
 ];
 

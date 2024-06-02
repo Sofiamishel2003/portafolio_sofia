@@ -1,0 +1,42 @@
+.blog {
+    padding: 50px;
+  }
+  
+  .blog h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .post-card {
+    background: var(--card-bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  :root {
+    --card-bg-color: #ffffff; /* Color de fondo de las tarjetas en modo claro */
+  }
+  
+  .dark-mode {
+    --card-bg-color: #4a4747; /* Color de fondo de las tarjetas en modo oscuro */
+  }
+  

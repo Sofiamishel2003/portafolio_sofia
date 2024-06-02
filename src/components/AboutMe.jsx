@@ -5,7 +5,7 @@ const cards = [
   {
     title: "Scout",
     description: "I was a Scout for 8 years, deeply involved in various activities. I achieved the highest leadership rank in my category and participated in multiple competitions and trainings certified by the UN.",
-    image: "/Scouts.jp",
+    image: "/Scouts.jpg",
   },
   {
     title: "Taekwondo Federation",

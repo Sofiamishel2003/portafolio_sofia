@@ -40,25 +40,25 @@ function Portfolio() {
         <h3>Basic Algorithms</h3>
         <div className="algorithms">
           <div className="algorithm-card">
-            <img src="public/HanoiVisualStack.png" alt="Algorithm 1" />
+            <img src="/HanoiVisualStack.png" alt="Algorithm 1" />
             <h4>Towers of Hanoi</h4>
             <p>This application demonstrates the Tower of Hanoi problem using stacks. Developed with Python and Tkinter, it visually shows the movement of disks between rods.</p>
             <a href="https://github.com/Sofiamishel2003/Hanoi-visual-with-stack.git" target="_blank" rel="noopener noreferrer">Source Code</a>
           </div>
           <div className="algorithm-card">
-            <img src="public/infixtopostfix.png" alt="Algorithm 2" />
+            <img src="/infixtopostfix.png" alt="Algorithm 2" />
             <h4>Infix to Postfix Converter</h4>
             <p>This JavaScript application converts infix expressions to postfix using a stack data structure. The web-based tool simplifies the understanding of expression conversion.</p>
             <a href="https://github.com/Sofiamishel2003/Infix-to-postfix.git" target="_blank" rel="noopener noreferrer">Source Code</a>
           </div>
           <div className="algorithm-card">
-            <img src="public/sorts.png" alt="Algorithm 3" />
+            <img src="/sorts.png" alt="Algorithm 3" />
             <h4>Sorting Algorithms</h4>
             <p>This Python application compares different sorting algorithms: Bubble Sort, Counting Sort, Insertion Sort, and Quick Sort. It shows the time complexity and performance of each sort.</p>
             <a href="https://github.com/Sofiamishel2003/Sorts.git" target="_blank" rel="noopener noreferrer">Source Code</a>
           </div>
           <div className="algorithm-card">
-            <img src="public/ArbolesBinarios.png" alt="Algorithm 4" />
+            <img src="/ArbolesBinarios.png" alt="Algorithm 4" />
             <h4>Binary Trees Visualization</h4>
             <p>This Python application visualizes binary trees, displaying the tree structure and providing functionalities for pre-order, in-order, and post-order traversals.</p>
             <a href="https://github.com/Sofiamishel2003/Arboles-Binarios-Visuales.git" target="_blank" rel="noopener noreferrer">Source Code</a>

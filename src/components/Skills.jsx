@@ -87,6 +87,14 @@ function Skills() {
             <i className="devicon-postgresql-plain colored"></i>
             <span>PostgreSQL</span>
           </div>
+          <div className="skill-item">
+            <i className="devicon-mongodb-plain colored"></i>
+            <span>MongoDB</span>
+          </div>
+          <div className="skill-item">
+            <i className="devicon-neo4j-plain colored"></i>
+            <span>Neo4j</span>
+          </div>
         </div>
 
         <div className="skill-card">
